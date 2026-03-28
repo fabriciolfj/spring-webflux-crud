@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: crud.product
+  data:
+    r2dbc:
+      repositories:
+        enabled: true
+  r2dbc:
+    password: root
+    username: root
+    url: r2dbc:postgresql://localhost:5432/product
